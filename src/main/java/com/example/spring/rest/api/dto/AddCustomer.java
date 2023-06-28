@@ -1,4 +1,4 @@
-package com.example.springRestApi.dto;
+package com.example.spring.rest.api.dto;
 
 public class AddCustomer {
     private String firstName;

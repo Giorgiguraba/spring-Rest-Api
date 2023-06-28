@@ -1,7 +1,8 @@
-package com.example.springRestApi.controller;
+package com.example.spring.rest.api.controller;
 
-import com.example.springRestApi.entities.Customer;
-import com.example.springRestApi.services.CustomerService;
+import com.example.spring.rest.api.dto.AddCustomer;
+import com.example.spring.rest.api.entities.Customer;
+import com.example.spring.rest.api.services.CustomerService;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
@@ -20,6 +21,9 @@ public class CustomerController {
 //        return x;
         return customerService.getCustomerById(id);
     }
+    @RequestMapping(value = "/{id}", method = RequestMethod.PUT, produces = {"application/json"})
+    public Customer edit(@PathVariable Long id, @RequestBody AddCustomer addCustomer) throws Exception{
 
+    }
 
 }

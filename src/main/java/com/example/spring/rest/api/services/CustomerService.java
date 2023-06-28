@@ -1,7 +1,7 @@
-package com.example.springRestApi.services;
+package com.example.spring.rest.api.services;
 
-import com.example.springRestApi.entities.Customer;
-import com.example.springRestApi.repository.CustomerRepository;
+import com.example.spring.rest.api.entities.Customer;
+import com.example.spring.rest.api.repository.CustomerRepository;
 import org.springframework.data.rest.webmvc.ResourceNotFoundException;
 import org.springframework.stereotype.Service;
 

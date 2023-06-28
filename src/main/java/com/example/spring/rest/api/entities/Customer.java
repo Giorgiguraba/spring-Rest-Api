@@ -21,7 +21,7 @@ public class Customer {
     private Integer active;
     @Column(name = "create_date")
     private Date createDate;
-    @Column(name = "address_id")
+    @JoinColumn(name = "address_id")
     @ManyToOne(fetch = FetchType.LAZY)
     private Address address;
     @Column(name = "middle_name")

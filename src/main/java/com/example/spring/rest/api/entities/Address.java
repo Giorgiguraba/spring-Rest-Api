@@ -1,4 +1,4 @@
-package com.example.springRestApi.entities;
+package com.example.spring.rest.api.entities;
 
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;

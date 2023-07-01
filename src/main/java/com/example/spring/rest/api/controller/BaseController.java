@@ -14,7 +14,6 @@ public class BaseController {
     @ResponseBody
     @ExceptionHandler(ResourceNotFoundException.class)
     public ResponseEntity<ErrorMessage> handleNotFoundExcaption(Exception ex){
-        ex.printStackTrace();
         return ResponseEntity.status(HttpStatus.NOT_FOUND).body(new ErrorMessage(ex.getMessage()));
     }
     @ResponseBody

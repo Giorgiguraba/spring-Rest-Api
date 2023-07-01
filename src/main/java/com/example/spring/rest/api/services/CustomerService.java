@@ -38,7 +38,7 @@ public class CustomerService {
         customer.setFirstName(addCustomer.getFirstName());
         customer.setLastName(addCustomer.getLastName());
         customer.setMiddleName(addCustomer.getMiddleName());
-//        GeneratUtil.getCopyOf(addCustomer, customer); #დასაფიქსი მაქვს ერორი
+//        GeneratUtil.getCopyOf(addCustomer, customer); ///დასაფიქსი მაქვს ერორი
 //
 //        Address address = addressService.getById(addCustomer.getAddressId());
 //
